@@ -24,8 +24,12 @@
 
 .single-post-area:hover {
   transform: translateY(-10px);
+
 }
 
+.single-post-area:hover .post-title {
+  color: #1cc3b2;
+}
 .single-post-area .post-thumbnail {
   width: 100%;
   object-fit: cover;
@@ -66,9 +70,9 @@
   font-weight: 500;
 }
 
-.post-title:hover {
+/* .post-title:hover {
   color: #1cc3b2;
-}
+} */
 
 .post-info {
   margin-bottom: 15px;
